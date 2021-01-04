@@ -1,3 +1,9 @@
+# Filesystem
+fs_mgr.overlayfs.prefer_cache_backing_storage=true
+
+# Keystore
+ro.security.keystore.keytype=sakv2,gak
+
 # RIL
 ro.vendor.qti.va_aosp.support=1
 

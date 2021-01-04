@@ -145,9 +145,6 @@ ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 ro.opengles.version=196610
 
-# Filesystem
-fs_mgr.overlayfs.prefer_cache_backing_storage=true
-
 # Fingerprint
 ro.vendor.fingerprint.request_touch_event=true
 ro.vendor.fingerprint.type=udfps_optical
@@ -158,7 +155,6 @@ ro.hardware.gatekeeper=mdfpp
 
 # Keystore
 ro.hardware.keystore=mdfpp
-ro.security.keystore.keytype=sakv2,gak
 
 # Media
 debug.stagefright.c2inputsurface=-1
