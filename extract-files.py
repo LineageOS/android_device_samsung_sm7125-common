@@ -38,6 +38,9 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    ('vendor/lib/hw/audio.primary.atoll.so'): blob_fixup()
+        .add_needed('libshim_samsungaudioparams.so')
+        .binary_regex_replace(b'str_parms_get_int', b'str_parms_get_mod'),
     ('vendor/lib/libwvhidl.so', 'vendor/lib/mediadrm/libwvdrmengine.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     ('vendor/lib/unihal_main@2.15.so', 'vendor/lib64/unihal_main@2.15.so'): blob_fixup()
