@@ -92,7 +92,8 @@ PRODUCT_PACKAGES += \
     libsamsungSoundbooster_plus \
     SoundBoosterStage \
     SamsungDAP \
-    SamsungCallManager
+    SamsungCallManager \
+    libshim_samsungaudioparams
 
 $(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7125-common:lib_SoundBooster_ver1050)
 
