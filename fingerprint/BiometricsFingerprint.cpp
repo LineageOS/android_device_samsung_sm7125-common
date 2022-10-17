@@ -127,7 +127,7 @@ Return<bool> BiometricsFingerprint::isUdfps(uint32_t) {
 Return<void> BiometricsFingerprint::onFingerDown(uint32_t, uint32_t, float, float) {
     std::thread([this]() {
         std::this_thread::sleep_for(std::chrono::milliseconds(35));
-        set(HBM_PATH, "331");
+        set(HBM_PATH, "486");
     }).detach();
 
     request(SEM_REQUEST_TOUCH_EVENT, FINGERPRINT_REQUEST_SESSION_OPEN);
