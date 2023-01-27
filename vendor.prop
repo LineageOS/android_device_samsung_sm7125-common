@@ -124,6 +124,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.display.disable_ui_3d_tonemap=1
 vendor.display.disable_ext_anim=1
 debug.sf.latch_unsignaled=1
+debug.sf.auto_latch_unsignaled=0
 debug.sf.early_phase_offset_ns=100000
 debug.sf.early_app_phase_offset_ns=100000
 debug.sf.early_gl_phase_offset_ns=100000
