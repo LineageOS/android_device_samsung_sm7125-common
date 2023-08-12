@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c0997f3_39a96324",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2023-08-12T11:38:53Z",
+      "side": 1,
+      "message": "Waiting for\n-Google to push a new CameraX release\n-Aperture to merge it",
+      "revId": "d9ac17a62e30b7f151bd65b941eae3637f714b3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
