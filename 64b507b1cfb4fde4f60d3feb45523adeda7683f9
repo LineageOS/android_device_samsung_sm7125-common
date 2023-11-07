@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf5505a1_d081a127",
+        "filename": "sepolicy/vendor/rild.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-07T23:31:12Z",
+      "side": 1,
+      "message": "setprop grants getprop.",
+      "revId": "64b507b1cfb4fde4f60d3feb45523adeda7683f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
