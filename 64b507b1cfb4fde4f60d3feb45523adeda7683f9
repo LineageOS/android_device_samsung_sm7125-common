@@ -16,6 +16,24 @@
       "message": "setprop grants getprop.",
       "revId": "64b507b1cfb4fde4f60d3feb45523adeda7683f9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68d96d82_1757bfea",
+        "filename": "sepolicy/vendor/rild.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2023-11-11T11:44:51Z",
+      "side": 1,
+      "message": "Thanks for the hint!",
+      "parentUuid": "cf5505a1_d081a127",
+      "revId": "64b507b1cfb4fde4f60d3feb45523adeda7683f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
