@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c77db863_516af64b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2024-04-04T13:41:45Z",
+      "side": 1,
+      "message": "Waiting for https://review.lineageos.org/c/LineageOS/android_hardware_samsung/+/387916",
+      "revId": "cf2229faf9b5b64399bca6f03059052b7cd26117",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
