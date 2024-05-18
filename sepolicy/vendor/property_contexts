@@ -9,9 +9,6 @@ persist.vendor.bt.                               u:object_r:vendor_bluetooth_pro
 # Perf
 ro.vendor.extension_library                      u:object_r:vendor_mpctl_prop:s0
 
-# Power
-vendor.powerhal.                                 u:object_r:vendor_power_prop:s0
-
 # RIL
 ro.vendor.multisim.                              u:object_r:vendor_radio_prop:s0
 ro.vendor.radio.                                 u:object_r:vendor_radio_prop:s0
