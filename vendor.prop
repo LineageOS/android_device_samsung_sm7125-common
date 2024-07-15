@@ -171,6 +171,9 @@ ro.security.keystore.keytype=sakv2,gak
 # Media
 debug.stagefright.c2inputsurface=-1
 
+# OEM Unlock
+ro.oem_unlock_supported=1
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
