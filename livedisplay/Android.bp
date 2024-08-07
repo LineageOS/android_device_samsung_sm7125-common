@@ -16,6 +16,7 @@ cc_binary {
     name: "vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm7125",
     defaults: ["hidl_defaults"],
     init_rc: ["vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm7125.rc"],
+    vintf_fragments: ["vendor.lineage.livedisplay@2.0-service.samsung-qcom.sm7125.xml"],
     relative_install_path: "hw",
     srcs: [
         "AdaptiveBacklight.cpp",
