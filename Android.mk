@@ -18,8 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter a52q a72q,$(TARGET_DEVICE)),)
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
 include $(CLEAR_VARS)
 
 FIRMWARE_MOUNT_POINT := $(TARGET_OUT_VENDOR)/firmware_mnt
