@@ -172,6 +172,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung
 
+# UDFPS
+$(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd

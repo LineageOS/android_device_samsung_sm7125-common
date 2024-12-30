@@ -144,7 +144,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth/include
 $(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
 
 # FOD
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(COMMON_PATH):libudfps_extension.sm7125
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/samsung/fingerprint:libudfps_extension.samsung
 TARGET_USES_FOD_ZPOS := true
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
 TARGET_SEC_FP_REQUEST_TOUCH_EVENT := true
