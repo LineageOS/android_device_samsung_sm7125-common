@@ -1,4 +1,4 @@
-// Copyright (C) 2019 The LineageOS Project
+// Copyright (C) 2019-2024 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,8 +20,9 @@ cc_binary {
     relative_install_path: "hw",
     srcs: [
         "AdaptiveBacklight.cpp",
-        "SunlightEnhancement.cpp",
         "DisplayColorCalibration.cpp",
+        "DisplayModes.cpp",
+        "SunlightEnhancement.cpp",
         "service.cpp",
     ],
     shared_libs: [
