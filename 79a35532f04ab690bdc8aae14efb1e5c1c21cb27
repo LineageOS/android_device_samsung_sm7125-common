@@ -16,6 +16,24 @@
       "message": "You should first sync with templates to introduce this everywhere.",
       "revId": "79a35532f04ab690bdc8aae14efb1e5c1c21cb27",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e259601_5832b01d",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-01T15:07:22Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/412877",
+      "parentUuid": "aa440ccb_c44c8dfd",
+      "revId": "79a35532f04ab690bdc8aae14efb1e5c1c21cb27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
