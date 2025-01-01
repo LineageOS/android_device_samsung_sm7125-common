@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03b01a23_faa7d82f",
+        "filename": "configs/init/android.hardware.gatekeeper@1.0-service.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-01T15:09:53Z",
+      "side": 0,
+      "message": "Is this the default?",
+      "revId": "5f6c219005bb47656e5df9ec51c183cb1a660c59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
