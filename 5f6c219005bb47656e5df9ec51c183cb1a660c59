@@ -16,6 +16,24 @@
       "message": "Is this the default?",
       "revId": "5f6c219005bb47656e5df9ec51c183cb1a660c59",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5dd07ca6_56356f62",
+        "filename": "configs/init/android.hardware.gatekeeper@1.0-service.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-01T17:48:06Z",
+      "side": 0,
+      "message": "This is exactly the same rc that stock ROM ships. The \"5678\" part does not seem to be neccessary though, that\u0027s why I\u0027m dropping it",
+      "parentUuid": "03b01a23_faa7d82f",
+      "revId": "5f6c219005bb47656e5df9ec51c183cb1a660c59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
