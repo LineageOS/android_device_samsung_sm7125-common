@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa440ccb_c44c8dfd",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-01-01T15:05:35Z",
+      "side": 1,
+      "message": "You should first sync with templates to introduce this everywhere.",
+      "revId": "79a35532f04ab690bdc8aae14efb1e5c1c21cb27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
