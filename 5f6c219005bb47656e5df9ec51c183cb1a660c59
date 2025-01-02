@@ -34,6 +34,24 @@
       "parentUuid": "03b01a23_faa7d82f",
       "revId": "5f6c219005bb47656e5df9ec51c183cb1a660c59",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de8a737f_c4281d64",
+        "filename": "configs/init/android.hardware.gatekeeper@1.0-service.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-02T14:32:03Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "5dd07ca6_56356f62",
+      "revId": "5f6c219005bb47656e5df9ec51c183cb1a660c59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
