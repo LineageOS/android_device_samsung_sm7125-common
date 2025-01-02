@@ -34,6 +34,24 @@
       "parentUuid": "aa440ccb_c44c8dfd",
       "revId": "79a35532f04ab690bdc8aae14efb1e5c1c21cb27",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b223ed21_66ee2512",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-01-02T09:33:26Z",
+      "side": 1,
+      "message": "Thanks for the hint, done:\nhttps://review.lineageos.org/c/LineageOS/android_device_samsung_sm7125-common/+/413818\nhttps://review.lineageos.org/c/LineageOS/android_device_samsung_a72q/+/413820\nhttps://review.lineageos.org/c/LineageOS/android_device_samsung_a52q/+/413819",
+      "parentUuid": "6e259601_5832b01d",
+      "revId": "79a35532f04ab690bdc8aae14efb1e5c1c21cb27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
