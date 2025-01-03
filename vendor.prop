@@ -102,15 +102,6 @@ ro.soc.model=SM7125
 ro.crypto.metadata_init_delete_all_keys.enabled=false
 ro.crypto.volume.filenames_mode=aes-256-cts
 
-# Dalvik VM
-dalvik.vm.heapgrowthlimit=256m
-dalvik.vm.heapstartsize=8m
-dalvik.vm.heapsize=512m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapmaxfree=8m
-dalvik.vm.lockprof.threshold=500
-
 # Display
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
