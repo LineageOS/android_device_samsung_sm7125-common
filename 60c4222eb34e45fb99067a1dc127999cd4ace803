@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b48330cb_547e225c",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-05T14:21:28Z",
+      "side": 0,
+      "message": "https://review.lineageos.org/c/LineageOS/android_hardware_qcom-caf_common/+/411162, no need to migrate.",
+      "revId": "60c4222eb34e45fb99067a1dc127999cd4ace803",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
