@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -176,6 +176,11 @@ BOARD_HAVE_QCOM_FM := true
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
+
+# Prop files
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
