@@ -1,3 +1,6 @@
+# Display
+sys.brightness.disable_gamma_conversion=true
+
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
