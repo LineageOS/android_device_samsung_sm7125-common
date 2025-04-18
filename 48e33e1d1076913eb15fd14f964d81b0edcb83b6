@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf1f7cb2_7a09f9cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-04-18T17:40:15Z",
+      "side": 1,
+      "message": "Add to hardware/qcom-caf/common/Android.bp",
+      "revId": "48e33e1d1076913eb15fd14f964d81b0edcb83b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
