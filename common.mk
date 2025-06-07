@@ -368,7 +368,7 @@ PRODUCT_PACKAGES += \
 
 # Touch features
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.sm7125
+    vendor.lineage.touch-service.samsung_sm7125
 
 # Vendor service manager
 PRODUCT_PACKAGES += \
