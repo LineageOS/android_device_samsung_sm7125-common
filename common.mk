@@ -56,6 +56,8 @@ PRODUCT_PACKAGES += \
     init.vendor.rilcommon.rc \
     init.vendor.sensors.rc
 
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_sm7125)
+
 # Vendor scripts
 PRODUCT_PACKAGES += \
     init.class_main.sh \
