@@ -145,10 +145,6 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_HAS_QCA_FM_SOC := cherokee
 BOARD_HAVE_QCOM_FM := true
 
-# Media
-TARGET_USES_ION := true
-TARGET_DISABLED_UBWC := true
-
 # Prop files
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
