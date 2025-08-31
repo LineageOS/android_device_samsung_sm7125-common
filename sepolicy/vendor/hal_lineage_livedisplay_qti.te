@@ -1,0 +1,7 @@
+# /sys/devices/virtual/lcd/panel
+allow hal_lineage_livedisplay_qti sysfs_lcd_writable:file { read write open };
+
+# /sys/devices/virtual/mdnie/mdnie/
+allow hal_lineage_livedisplay_qti sysfs_mdnie_writable:dir search;
+allow hal_lineage_livedisplay_qti sysfs_mdnie_writable:file { read write open getattr };
+allow hal_lineage_livedisplay_qti vendor_sysfs_graphics:file write;
