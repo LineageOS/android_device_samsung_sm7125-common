@@ -16,6 +16,24 @@
       "message": "These are the only color modes supported (as seen on S7 and S7+) and matches OneUI:\n\n----------Color Modes---------\ncolor modes supported:\nmode: 0 RIs { 0 dynamic_range [ 0 ] }\nmode: 7 RIs { 0 dynamic_range [ 0 ] 256 dynamic_range [ 0 ] }\nmode: 9 RIs { 0 dynamic_range [ 0 ] 260 dynamic_range [ 1 ] 261 dynamic_range [ 1 ] 262 dynamic_range [ 1 ] 263 dynamic_range [ 1 ] 264 dynamic_range [ 1 ] }\ncurrent mode: 7\ncurrent render_intent: 0\ncurrent dynamic_range: SDR\n\nYou need to double check this one on your devices:\n\n`adb shell dumpsys SurfaceFlinger`",
       "revId": "d8a8e5668e2b22959bf6ecd9847aa08a1390ef28",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f9cf1c8_cc6ee2ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-09-20T12:36:05Z",
+      "side": 1,
+      "message": "Confirmed to be the same here.",
+      "parentUuid": "a355710e_811d0927",
+      "revId": "d8a8e5668e2b22959bf6ecd9847aa08a1390ef28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
