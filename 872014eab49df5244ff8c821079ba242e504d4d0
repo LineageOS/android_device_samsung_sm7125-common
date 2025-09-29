@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6c77bf7_fdc55d96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2025-09-29T16:44:43Z",
+      "side": 1,
+      "message": "I believe you would also want to pick this, otherwise you\u0027ll end up with a broken data partition after wiping in lineage recovery: https://review.lineageos.org/c/LineageOS/android_device_samsung_sm8250-common/+/413383",
+      "revId": "872014eab49df5244ff8c821079ba242e504d4d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
