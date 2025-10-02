@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4072d2b_93413969",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-10-02T12:49:52Z",
+      "side": 1,
+      "message": "If your device doesn\u0027t support bootloader relock with a a custom OS, you should not be adding this.",
+      "revId": "824b66fc0fb09f038c1a883c451d030cebe4b08a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
