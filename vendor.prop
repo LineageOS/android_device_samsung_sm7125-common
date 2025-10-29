@@ -112,7 +112,6 @@ dalvik.vm.heapmaxfree=8m
 dalvik.vm.lockprof.threshold=500
 
 # Display
-debug.mdpcomp.logs=0
 vendor.gralloc.disable_ubwc=0
 vendor.display.disable_scaler=0
 vendor.display.disable_inline_rotator=1
