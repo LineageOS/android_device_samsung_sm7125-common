@@ -1,10 +1,14 @@
 [
   {
-    "repository": "android_kernel_samsung_sm7125",
-    "target_path": "kernel/samsung/sm7125"
+        "repository": "android_kernel_samsung_sm7125",
+        "target_path": "kernel/samsung/sm7125"
   },
   {
         "repository": "android_hardware_samsung",
         "target_path": "hardware/samsung"
+  },
+  {
+        "repository": "android_hardware_samsung_slsi_nfc",
+        "target_path": "hardware/samsung_slsi/nfc"
   }
 ]
