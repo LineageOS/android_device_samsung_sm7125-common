@@ -21,9 +21,6 @@
 /dev/esfp[0-9]                               u:object_r:fp_sensor_device:s0
 /dev/goodix_fp                               u:object_r:fp_sensor_device:s0
 
-# NFC
-/dev/sec-nfc                                 u:object_r:nfc_device:s0
-
 # qos
 /dev/network_throughput                      u:object_r:radio_qos_device:s0
 
