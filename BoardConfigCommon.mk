@@ -140,9 +140,6 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth/include
 
-# Camera
-$(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
-
 # FOD
 TARGET_USES_FOD_ZPOS := true
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
@@ -200,9 +197,6 @@ include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 PRODUCT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
-
-# Vibrator
-$(call soong_config_set_bool,samsungVibratorVars,duration_amplitude,true)
 
 # Wifi
 BOARD_WLAN_DEVICE := qcwcn

@@ -109,6 +109,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libui_shim.vendor
 
+$(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
+
 # CAS
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service
@@ -387,6 +389,8 @@ PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/usb/etc
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung
+
+$(call soong_config_set_bool,samsungVibratorVars,duration_amplitude,true)
 
 # Tether
 PRODUCT_PACKAGES += \
