@@ -203,3 +203,4 @@ ro.vendor.vibrator_hal.tick_duration=40
 
 # Wifi
 wifi.aware.interface=wifi-aware0
+ro.vendor.wifi.sap.interface=wlan1
