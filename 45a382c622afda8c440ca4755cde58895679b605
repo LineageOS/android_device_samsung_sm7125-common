@@ -33,6 +33,24 @@
       "message": "```suggestion\n    vendor: true,\n```",
       "revId": "45a382c622afda8c440ca4755cde58895679b605",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24bfe694_da49fbb8",
+        "filename": "init/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-19T07:37:02Z",
+      "side": 1,
+      "message": "No, result is the same and matches original change.",
+      "parentUuid": "7f9f092b_a65eecf9",
+      "revId": "45a382c622afda8c440ca4755cde58895679b605",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
