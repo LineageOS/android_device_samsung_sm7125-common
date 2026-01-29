@@ -16,6 +16,24 @@
       "message": "This is for 23.1+ only.",
       "revId": "26424725e2f641ae670333d57517cdc16867ea69",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2534d794_f325779b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-01-29T18:51:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac3dcc9d_0f63a05b",
+      "revId": "26424725e2f641ae670333d57517cdc16867ea69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
