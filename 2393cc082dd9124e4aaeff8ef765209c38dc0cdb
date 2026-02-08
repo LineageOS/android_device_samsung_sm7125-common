@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bb99533_11f8f899",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-08T15:10:39Z",
+      "side": 1,
+      "message": "extract-files.sh is identical on a72q, you can just pick the a52q commit\n there and then get rid of the shell files in sm7125-common",
+      "revId": "2393cc082dd9124e4aaeff8ef765209c38dc0cdb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
