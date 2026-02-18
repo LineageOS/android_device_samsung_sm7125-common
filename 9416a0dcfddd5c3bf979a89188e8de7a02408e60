@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae95931d_6c82ea18",
+        "filename": "extract-files.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-18T19:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99ab215c_fc993539",
+      "range": {
+        "startLine": 36,
+        "startChar": 2,
+        "endLine": 45,
+        "endChar": 22
+      },
+      "revId": "9416a0dcfddd5c3bf979a89188e8de7a02408e60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4c33383a_adb10cf7",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-02-18T16:40:45Z",
       "side": 1,
       "message": "Please keep the complete hexpatch, as otherwise it will lead to the lib being patched in multiple places, which will break RIL completely.",
+      "range": {
+        "startLine": 59,
+        "startChar": 22,
+        "endLine": 59,
+        "endChar": 121
+      },
+      "revId": "9416a0dcfddd5c3bf979a89188e8de7a02408e60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2aa8f468_39cbbe90",
+        "filename": "extract-files.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-18T19:25:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4c33383a_adb10cf7",
       "range": {
         "startLine": 59,
         "startChar": 22,
