@@ -16,6 +16,24 @@
       "message": "Use https://review.lineageos.org/q/I9293c22a81ae4aaea54b7d5db253ca2aaf577bb8",
       "revId": "c6ef8e79c222ac3463f594d8a6a7e8e5682b9c73",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc24d751_5a3ecaab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-19T17:39:33Z",
+      "side": 1,
+      "message": "This is a commit created by @seda18@rolmail.net himself and not a cherry-pick, so this is fine.",
+      "parentUuid": "33733f26_d1028dc3",
+      "revId": "c6ef8e79c222ac3463f594d8a6a7e8e5682b9c73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
