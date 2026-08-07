@@ -1400,4 +1400,10 @@
         <item>500</item>
         <item>600</item>
     </integer-array>
+
+    <!-- Flag indicating whether the current device allows stk sms send service via framework.
+         If true,this means that the device supports sending of stk triggered sms via the telephony.
+         This can be overridden to false for devices which can't send stk sms message via
+         framework, but would be sent via modem. -->
+    <bool name="config_stk_sms_send_support">true</bool>
 </resources>
