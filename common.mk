@@ -88,7 +88,11 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libvolumelistener \
     libprocessgroup.vendor \
-    libqti_vndfwk_detect.vendor_32
+    libqti_vndfwk_detect.vendor_32 \
+    libsamsungSoundbooster_plus \
+    SoundBoosterStage
+
+$(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7125-common:lib_SoundBooster_ver1050)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/configs/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \

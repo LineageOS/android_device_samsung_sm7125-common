@@ -57,6 +57,8 @@ vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/libsamsungVoipResampler.so
 vendor/lib/lib_soundaliveresampler.so
 vendor/lib/lib_SoundAlive_SRC384_ver320.so
+vendor/lib/lib_SoundBooster_ver1050.so
+vendor/lib64/lib_SoundBooster_ver1050.so
 vendor/lib/librecordalive.so
 vendor/lib/lib_SamsungRec_07010.so
 vendor/lib/libexthwplugin.so
