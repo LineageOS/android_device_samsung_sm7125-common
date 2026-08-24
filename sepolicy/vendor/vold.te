@@ -1,1 +1,3 @@
 allow vold efs_file:dir { read open ioctl };
+
+allow vold vendor_sysfs_scsi_host:file rw_file_perms;

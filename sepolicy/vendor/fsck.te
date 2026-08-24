@@ -2,3 +2,6 @@ allow fsck self:capability kill;
 
 # EFS
 allow fsck { efs_block_device sec_efs_block_device }:blk_file rw_file_perms;
+
+# /sys/devices/platform/soc/1d84000.ufshc/host0/
+allow fsck vendor_sysfs_scsi_host:file r_file_perms;
