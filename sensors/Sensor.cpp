@@ -24,6 +24,8 @@
 
 #include <cmath>
 
+#include <thread>
+
 #define TSP_ENABLED_PATH "/sys/class/sec/tsp/input/enabled"
 
 template <typename T>
@@ -280,9 +282,12 @@ SysfsPollingOneShotSensor::~SysfsPollingOneShotSensor() {
 void SysfsPollingOneShotSensor::activate(bool enable, bool notify, bool lock) {
     std::unique_lock<std::mutex> runLock(mRunMutex, std::defer_lock);
 
-    if (!enable && strcmp(get<std::string>(TSP_ENABLED_PATH, "0").c_str(), "0") == 0) {
-        set(TSP_ENABLED_PATH, "1");
+    if (!enable) {
+	std::this_thread::sleep_for(std::chrono::milliseconds(200));
+        if(strcmp(get<std::string>(TSP_ENABLED_PATH, "0").c_str(), "0") == 0) {
+  	      set(TSP_ENABLED_PATH, "1");
     }
+ }
 
     if (lock) {
         runLock.lock();
