@@ -207,6 +207,49 @@
         <item>255</item>
     </integer-array>
 
+    <!-- Array of desired screen brightness in nits corresponding to the lux values
+         in the config_autoBrightnessLevels array. The display brightness is defined as the measured
+         brightness of an all-white image.
+
+         If this is defined then:
+            - config_autoBrightnessLcdBacklightValues should not be defined
+            - config_screenBrightnessNits must be defined
+            - config_screenBrightnessBacklight must be defined
+
+         This array should have size one greater than the size of the config_autoBrightnessLevels
+         array. The brightness values must be non-negative and non-decreasing. This must be
+         overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessDisplayValuesNits">
+        <item>11</item>
+        <item>15</item>
+        <item>22</item>
+        <item>27</item>
+        <item>31</item>
+        <item>35</item>
+        <item>55</item>
+        <item>75</item>
+        <item>95</item>
+        <item>106</item>
+        <item>112</item>
+        <item>119</item>
+        <item>134</item>
+        <item>157</item>
+        <item>220</item>
+        <item>378</item>
+        <item>378</item>
+        <item>468</item>
+        <item>515</item>
+        <item>563</item>
+        <item>610</item>
+        <item>658</item>
+        <item>705</item>
+        <item>753</item>
+        <item>776</item>
+        <item>800</item>
+        <item>800</item>
+        <item>800</item>
+    </integer-array>
+
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
          when adapting to brighter or darker environments.  This parameter controls how quickly
