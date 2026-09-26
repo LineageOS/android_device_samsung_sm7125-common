@@ -95,6 +95,8 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,samsungAudioVars,soundbooster_dsp_library,//vendor/samsung/sm7125-common:lib_SoundBooster_ver1050)
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/configs/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
     $(LOCAL_PATH)/audio/configs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
