@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4486606c_7cbe62ae",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-27T12:53:34Z",
+      "side": 1,
+      "message": "How do you still have this?\n\nhttps://review.lineageos.org/q/Ibafdabace155d7cfab99f20d980006086b274f32",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 44
+      },
+      "revId": "94e4518d4b3ecf16a16f1aec7a03bbfd4eb14bf0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
