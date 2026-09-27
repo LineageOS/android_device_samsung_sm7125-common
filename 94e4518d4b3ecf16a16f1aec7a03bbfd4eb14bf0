@@ -22,6 +22,30 @@
       },
       "revId": "94e4518d4b3ecf16a16f1aec7a03bbfd4eb14bf0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3417a567_4554cff9",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-09-27T13:59:48Z",
+      "side": 1,
+      "message": "Sorry, leftover.\nhttps://review.lineageos.org/c/LineageOS/android_device_samsung_sm7125-common/+/505135",
+      "parentUuid": "4486606c_7cbe62ae",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 44
+      },
+      "revId": "94e4518d4b3ecf16a16f1aec7a03bbfd4eb14bf0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
