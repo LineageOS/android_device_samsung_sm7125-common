@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
     libui_shim.vendor
 
 $(call soong_config_set_bool,samsungCameraVars,needs_sec_reserved_field,true)
+$(call soong_config_set_bool,samsungCameraVars,needs_sec_unihal_layout,true)
 
 # CAS
 PRODUCT_PACKAGES += \
