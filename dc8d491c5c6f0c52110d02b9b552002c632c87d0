@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81683830_ef83d09f",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-05T16:39:17Z",
+      "side": 1,
+      "message": "C comes before D",
+      "revId": "dc8d491c5c6f0c52110d02b9b552002c632c87d0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
